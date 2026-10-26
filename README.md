@@ -17,11 +17,19 @@ The project analyses 100,000 occupancy sensor records, aggregated into 1,969 hou
 The original dataset is provided through MMA3001 and is not included in this repository.
 
 ## How to Run
-1. Open `occupancy_prediction.ipynb` in Google Colab.
-2. Upload the original MMA3001 Dataset 2 ZIP file.
-3. Run all notebook cells in order.
+
+1. Download `occupancy_prediction.ipynb` and `occupancy_utils.py` from this repository.
+2. Open the notebook in Google Colab.
+3. Upload `occupancy_utils.py` and the original MMA3001 Dataset 2 ZIP file to the Colab session.
+4. Run all notebook cells in order.
 
 **Required libraries:** pandas, NumPy, matplotlib and scikit-learn.
+
+**Testing:** Run `python -m pytest tests/ -v` from the repository's root directory after installing pytest.
+
+**Documentation:** Generated source-code documentation is available in `docs/occupancy_utils.html`.
+
+**Note:** The original dataset is not included in this repository and must be obtained separately from the authorised university source.
 
 ## Results
 
